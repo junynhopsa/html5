@@ -1,0 +1,68 @@
+*{
+	margin:0 auto;
+	padding:0;		/* Espaçamento */
+}
+body{
+	margin: 0 auto;		/* O auto é utilizado para centralizar o texto dentro do corpo */
+	width: 940px;
+	font-size: 14px;
+	font-family: Verdana, Geneva, Sans-serif;
+	background-color: #DDDFF6;
+	color: #999;
+}
+header, nav, section, article, footer{
+	display: block;
+}
+header h1{
+	font-size: 40px;
+	line-height: 40px;
+	padding: 20px 0;		/* top right bottom left */ /* O primeiro parametro serve como o top e bottom e o segundo como right e left. Pode-se tambem usar os quatro parametros*/
+	text-align: center;
+}
+article{
+	clear: both;		/* Limpar o float */
+	margin-top: 20px;
+	text-align: justify;
+}
+
+h2{
+	clear: both;
+	text-align: center;
+	margin-top: 50px;
+}
+nav ul{
+	list-style-type: none;		/* Tirando o estilo da ul */
+}
+nav ul li{
+	float: left;
+}
+nav ul li a{
+	display: block;
+	height: 25px; /* Altura */
+	padding: 0 30px; /* Espaçamento */
+	float: left;
+	font-size: 14px;
+	line-height: 30px; /* Altura da Linha */
+	text-align: center;
+	text-decoration: none; /* Retirar decoração dos links */
+	color: #000;
+	font-weight: bold; /* Negrito */
+}
+nav ul li a:hover { /* O hover é para passar o mouse em cima do li a */
+	color: #34ABE0;
+ }
+ nav ul li a.selecionado{
+ 	color: #fff;
+ 	background-color: #34ABE0;
+	padding: 0 58px;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	margin-top: 2px;	/* Uma pequena margem do título */
+ }
+ section#intro{
+ 	height: 235px;
+ 	width: 940px;
+ 	background: url('logo_senac_grande_rosa.png') right top no-repeat #D5D3D3;
+ 	margin-top: 60px;
+ 	padding-left: 10px;
+ }
