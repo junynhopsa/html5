@@ -134,3 +134,7 @@ aside section ul li a:hover {
 aside section ul{
 	list-style-type: none;
 }
+
+aside section ul li{
+	margin-left: 20px;
+}
