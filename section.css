@@ -1,5 +1,5 @@
 *{
-	margin:0 auto;
+	margin:0;
 	padding:0;		/* Espaçamento */
 }
 body{
@@ -7,8 +7,8 @@ body{
 	width: 940px;
 	font-size: 14px;
 	font-family: Verdana, Geneva, Sans-serif;
-	background-color: #DDDFF6;
-	color: #999;
+	background-color: #65B3F6;
+	color: #0808C5;
 }
 header, nav, section, article, footer{
 	display: block;
@@ -21,14 +21,14 @@ header h1{
 }
 article{
 	clear: both;		/* Limpar o float */
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: justify;
 }
 
 h2{
 	clear: both;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 20px;
 }
 nav ul{
 	list-style-type: none;		/* Tirando o estilo da ul */
@@ -62,7 +62,75 @@ nav ul li a:hover { /* O hover é para passar o mouse em cima do li a */
  section#intro{
  	height: 235px;
  	width: 940px;
- 	background: url('logo_senac_grande_rosa.png') right top no-repeat #D5D3D3;
+ 	background: url('logo_senac_grande_rosa.png') right top no-repeat #7F96D1;
  	margin-top: 60px;
  	padding-left: 10px;
  }
+ hgroup h1{
+ 	text-align: center;
+ }
+
+ section#intro p{
+ 	padding-top: 30px;
+ 	font-style: italic;
+ 	font-size: 14px;
+ 	width: 800px;
+ 	color: #3053EC;
+ }
+
+ article header h1{
+ 	font-size: 22px;
+ 	text-align: left;
+ 	line-height: 40px;
+ 	margin-top: 20px;
+ 	padding: 0;
+ }
+
+  article p{
+ 	margin-bottom: 10px;
+ 	padding-right: 10px;
+ 	width: 620px;
+ }
+
+ article header p{
+ 	font-size: 15px;
+ 	line-height: 30px;
+ 	font-style: italic;
+ 	margin-bottom: 0px;
+ }
+
+ aside{
+ 	width: 280px;
+ }
+
+ article{
+ 	width: 620px;
+ 	float: left;
+ }
+
+ aside{
+ 	width: 280px;
+ 	float: right;
+ }
+
+ aside section{
+ 	margin-top: 35px;
+ }
+
+ aside section h1{
+ 	margin-bottom: 15px;
+ 	font-size: 16px;
+ }
+
+aside section ul li a {
+	text-decoration: none;
+}
+
+aside section ul li a:hover {
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+aside section ul{
+	list-style-type: none;
+}
