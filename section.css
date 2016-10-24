@@ -1,0 +1,139 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	margin:0 auto;
+	width: 940px;
+	font-size: 14px;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #f5f5f5;
+	color: #999
+}
+
+header, nav, section, article, footer, aside{
+	display: block;
+}
+
+header h1{
+	font-size: 35px;
+	line-height: 40px;
+	padding: 20px 0; /* toda vez que tiver parametros o primeiro sera encima e embaixo, o segunto direita e esquerda */
+ }
+article{
+	clear: both;
+	margin-top: 10px;
+	text-align: justify;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav ul li{
+	float:left;
+}
+
+nav ul li a{
+	display: block;
+	height: 25px; /*altura*/
+	padding: 0 30px; /*espaçamento*/
+	float: left; /* flutuar a esquerda*/
+	font-size: 13px;
+	line-height: 30px; /*altura da linha*/
+	text-align: center;
+	text-decoration: none; /*retirar sublinhado dos links*/
+	color: #000000;
+	font-weight: bold; /* negrito*/
+}
+
+nav ul li a:hover { /*passar mouse*/
+	color: #C861EE
+}
+
+nav ul li a.selecionado{
+	color: #FFFFFF;
+	background-color: #C861EE;
+	padding: 0 58px;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 2px;
+}
+
+section#intro{
+	height: 235px;
+	width: 940px;
+	background: url('outubrorosa.png') right top no-repeat #DDEEEE;
+	margin-top:60px; /* espaço ente home e senac*/
+	padding-left: 10px; /*espaço entre a borda e a letra "senac"*/
+}
+
+section#intro p{
+	padding-top: 35px;
+	font-style: italic;
+	font-size:14px;
+	width: 800px;
+	color: #1B1965; 
+}
+
+article header h1{
+	font-size: 22px;
+	text-align: left;
+	line-height: 40px;
+	margin-top: 20px;
+	padding:0;
+}
+
+article p{
+	margin-bottom: 10px;
+	padding-left: 10px;
+	width: 620px;
+	float: left;
+}
+
+article header p{
+	font-size: 15px;
+	line-height: 30px;
+	font-style: italic;
+	margin-bottom: 0px;
+}
+
+article{
+	width: 620px;
+	float: left;
+}
+
+aside{
+	width: 280px;
+	float: right;
+	padding-left: 40px;
+}
+
+aside section{
+	margin-top: 35px;
+}
+
+aside section{
+	margin-bottom: 15px;
+	font-size: 16px;
+}
+
+aside section ul li{
+	list-style-type: none;
+}
+
+ul li a{
+	display:block;
+	height: 25px; /*altura*/
+	font-size: 14px;
+	text-decoration: none; /*retirar sublinhado dos links*/
+	color: #000;
+	font-weight: bold; /* negrito*/
+
+}
+
+ul li a:hover{ /*passar mouse*/
+	color: #C861EE;
+	text-decoration:underline;
+}
